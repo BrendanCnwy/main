@@ -1,0 +1,36 @@
+{
+  "name": "& c:\\Users\\suecn\\main\\.venv\\Scripts\\Activate.ps1",
+  "hp": 16,
+  "max_hp": 37,
+  "attack": 10,
+  "defense": 3,
+  "gold": 53,
+  "inventory": [
+    {
+      "name": "Chain Mail",
+      "type": "armor",
+      "prof": "Medium"
+    },
+    {
+      "name": "Plate Armor",
+      "type": "armor",
+      "prof": "Heavy",
+      "price": 100,
+      "min_level": 5
+    }
+  ],
+  "weapon_prof": [
+    "Simple",
+    "Martial"
+  ],
+  "armor_prof": [
+    "Light"
+  ],
+  "level": 2,
+  "story": [
+    "Explored at level 1",
+    "Explored at level 1",
+    "Explored at level 1",
+    "Leveled up to 2"
+  ]
+}
