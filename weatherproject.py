@@ -2,7 +2,6 @@
 import json
 # Third-party library for HTTP requests (more user-friendly than urllib)
 import requests
-
 # Open-Meteo endpoint to look up the latitude/longitude for a city name
 GEOCODING_URL = 'https://geocoding-api.open-meteo.com/v1/search'
 # Open-Meteo endpoint to request weather forecast data
@@ -68,8 +67,8 @@ def get_forecast(lat, lon, timezone):
     params = {
         'latitude': lat,
         'longitude': lon,
-        # Request daily data fields: max/min temperature, precipitation, weather code
-        'daily': 'temperature_2m_max,temperature_2m_min,precipitation_sum,weathercode',
+        # Request daily data fields: max/min temperature, precipitation
+        'daily': 'temperature_2m_max,temperature_2m_min,precipitation_sum',
         'timezone': timezone,
         'forecast_days': 10,
     }
@@ -157,13 +156,12 @@ def main():
         print(f'Unexpected error retrieving forecast: {e}')
         return
 
-    # Extract daily forecast data (lists of dates, temps, precip, weather codes)
+    # Extract daily forecast data (lists of dates, temps, precip)
     daily = forecast.get('daily', {})
     dates = daily.get('time', [])  # List of dates
     tmax = daily.get('temperature_2m_max', [])  # Max temps in Celsius
     tmin = daily.get('temperature_2m_min', [])  # Min temps in Celsius
     precip = daily.get('precipitation_sum', [])  # Precip in millimeters
-    weathercode = daily.get('weathercode', [])  # Weather codes
 
     # Validate that forecast data was returned
     if not dates:
@@ -171,14 +169,14 @@ def main():
         return
 
     # Print table header and data rows
-    print('\nDate       | Min (°F) | Max (°F) | Precip (in) | Weather Code')
-    print('-----------------------------------------------------------')
+    print('\nDate       | Min (°F) | Max (°F) | Precip (in)')
+    print('------------------------------------------------')
     # Loop through each day and convert units
     for i, date in enumerate(dates):
         min_f = c_to_f(tmin[i])  # Convert min temp to Fahrenheit
         max_f = c_to_f(tmax[i])  # Convert max temp to Fahrenheit
         precip_in = mm_to_inches(precip[i])  # Convert precip to inches
-        print(f"{date} | {min_f:>8.1f} | {max_f:>8.1f} | {precip_in:>10.2f} | {weathercode[i]}")
+        print(f"{date} | {min_f:>8.1f} | {max_f:>8.1f} | {precip_in:>10.2f}")
 
     # Print final message before exit
     print('\nDone. Application will terminate.')
