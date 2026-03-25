@@ -1,7 +1,7 @@
-# Standard library imports for making HTTP requests and working with JSON
+# Standard library imports
 import json
-import urllib.parse
-import urllib.request
+# Third-party library for HTTP requests (more user-friendly than urllib)
+import requests
 
 # Open-Meteo endpoint to look up the latitude/longitude for a city name
 GEOCODING_URL = 'https://geocoding-api.open-meteo.com/v1/search'
@@ -9,16 +9,30 @@ GEOCODING_URL = 'https://geocoding-api.open-meteo.com/v1/search'
 FORECAST_URL = 'https://api.open-meteo.com/v1/forecast'
 
 def fetch_json(url, params):
-    """Send an HTTP GET request and parse JSON response."""
-    # Build query string from input parameters (dictionary of key/value pairs)
-    query = urllib.parse.urlencode(params)
-    full_url = f"{url}?{query}"
-
-    # Open URL and read JSON response. Raises on HTTP errors.
-    with urllib.request.urlopen(full_url, timeout=20) as response:
-        if response.status != 200:
-            raise RuntimeError(f"HTTP {response.status} from {full_url}")
-        return json.load(response)
+    """Send an HTTP GET request and parse JSON response using requests library."""
+    try:
+        # Use requests.get() to make the HTTP request
+        # params dict is automatically converted to query string
+        response = requests.get(url, params=params, timeout=20)
+        # raise_for_status() raises an exception for HTTP error codes (4xx, 5xx)
+        response.raise_for_status()
+        # Return parsed JSON data
+        return response.json()
+    except requests.exceptions.Timeout:
+        # Handle timeout errors (request took too long)
+        raise RuntimeError(f"Request timed out after 20 seconds: {url}")
+    except requests.exceptions.ConnectionError:
+        # Handle network connection errors (no internet, DNS issues, etc.)
+        raise RuntimeError(f"Connection error - check your internet connection: {url}")
+    except requests.exceptions.HTTPError as e:
+        # Handle HTTP errors (4xx, 5xx status codes)
+        raise RuntimeError(f"HTTP error {response.status_code}: {response.reason} for {url}")
+    except requests.exceptions.RequestException as e:
+        # Catch any other requests-related errors
+        raise RuntimeError(f"Request failed: {str(e)} for {url}")
+    except ValueError as e:
+        # Handle JSON parsing errors (if response isn't valid JSON)
+        raise RuntimeError(f"Invalid JSON response from {url}: {str(e)}")
 
 
 def find_location(city, state):
@@ -83,65 +97,90 @@ def main():
     """
     print('10-Day Weather Forecast (Open-Meteo API)')
 
-    # Keep asking until we have a location match to proceed
+    # Loop until we get valid city and state input
     while True:
+        # Get city input and remove whitespace
         city = input('Enter city name: ').strip()
         if not city:
             print('City cannot be empty. Please try again.')
             continue
 
+        # Get state input and remove whitespace
         state = input('Enter state code or name (e.g. CA or California): ').strip()
         if not state:
             print('State cannot be empty. Please try again.')
             continue
 
+        # Try to look up location in geocoding API
         try:
             loc = find_location(city, state)
+        except RuntimeError as e:
+            # Handle network/API errors with specific messages
+            print(f'Network or API error: {e}')
+            print('Please check your internet connection and try again.')
+            continue
         except Exception as e:
-            print(f'Error looking up location: {e}')
+            # Handle unexpected errors
+            print(f'Unexpected error looking up location: {e}')
             print('Please try again.')
             continue
 
+        # Retry if location not found
         if not loc:
             print(f'Could not find location for {city}, {state}. Please try again.')
             continue
 
+        # Exit loop once valid location is found
         break
 
-    name = loc.get('name')
-    admin1 = loc.get('admin1') or ''
-    country = loc.get('country') or ''
-    lat = loc['latitude']
-    lon = loc['longitude']
-    tz = loc.get('timezone', 'auto')
+    # Extract location data from the dictionary
+    name = loc.get('name')  # City name
+    admin1 = loc.get('admin1') or ''  # State name
+    country = loc.get('country') or ''  # Country
+    lat = loc['latitude']  # Latitude
+    lon = loc['longitude']  # Longitude
+    tz = loc.get('timezone', 'auto')  # Timezone
 
+    # Show location to user
     print(f'Found location: {name}, {admin1}, {country} ({lat}, {lon})')
 
+    # Fetch 10-day forecast from API
     try:
         forecast = get_forecast(lat, lon, tz)
+    except RuntimeError as e:
+        # Handle network/API errors with specific messages
+        print(f'Network or API error retrieving forecast: {e}')
+        print('Please check your internet connection and try again later.')
+        return
     except Exception as e:
-        print(f'Error retrieving forecast: {e}')
+        # Handle unexpected errors
+        print(f'Unexpected error retrieving forecast: {e}')
         return
 
+    # Extract daily forecast data (lists of dates, temps, precip, weather codes)
     daily = forecast.get('daily', {})
-    dates = daily.get('time', [])
-    tmax = daily.get('temperature_2m_max', [])
-    tmin = daily.get('temperature_2m_min', [])
-    precip = daily.get('precipitation_sum', [])
-    weathercode = daily.get('weathercode', [])
+    dates = daily.get('time', [])  # List of dates
+    tmax = daily.get('temperature_2m_max', [])  # Max temps in Celsius
+    tmin = daily.get('temperature_2m_min', [])  # Min temps in Celsius
+    precip = daily.get('precipitation_sum', [])  # Precip in millimeters
+    weathercode = daily.get('weathercode', [])  # Weather codes
 
+    # Validate that forecast data was returned
     if not dates:
         print('No daily forecast data returned.')
         return
 
+    # Print table header and data rows
     print('\nDate       | Min (°F) | Max (°F) | Precip (in) | Weather Code')
     print('-----------------------------------------------------------')
+    # Loop through each day and convert units
     for i, date in enumerate(dates):
-        min_f = c_to_f(tmin[i])
-        max_f = c_to_f(tmax[i])
-        precip_in = mm_to_inches(precip[i])
+        min_f = c_to_f(tmin[i])  # Convert min temp to Fahrenheit
+        max_f = c_to_f(tmax[i])  # Convert max temp to Fahrenheit
+        precip_in = mm_to_inches(precip[i])  # Convert precip to inches
         print(f"{date} | {min_f:>8.1f} | {max_f:>8.1f} | {precip_in:>10.2f} | {weathercode[i]}")
 
+    # Print final message before exit
     print('\nDone. Application will terminate.')
 
 if __name__ == '__main__':
