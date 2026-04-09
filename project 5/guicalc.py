@@ -2,6 +2,9 @@ import tkinter as tk
 
 import ttkbootstrap as ttk
 
+# This program creates a tip calculator window.
+# The user can enter a bill total, choose a tip, and split the cost by guests.
+
 
 class TipCalculatorApp:
 	"""A modern tip calculator built with ttkbootstrap."""
@@ -12,6 +15,8 @@ class TipCalculatorApp:
 		self.root.geometry("620x520")
 		self.root.resizable(True, True)
 
+		# These variables store the values shown in the form and results area.
+		# Using StringVar lets the screen update automatically when values change.
 		self.bill_var = tk.StringVar()
 		self.tip_var = tk.StringVar(value="15")
 		self.custom_tip_var = tk.StringVar()
@@ -24,11 +29,14 @@ class TipCalculatorApp:
 		self.root.columnconfigure(0, weight=1)
 		self.root.rowconfigure(0, weight=1)
 
+		# This outer frame holds the scrollable area of the app.
 		outer_frame = ttk.Frame(self.root)
 		outer_frame.grid(row=0, column=0, sticky="nsew")
 		outer_frame.columnconfigure(0, weight=1)
 		outer_frame.rowconfigure(0, weight=1)
 
+		# The canvas and scrollbar let the user scroll if the window is too small
+		# to show all of the calculator content at once.
 		self.scroll_canvas = tk.Canvas(outer_frame, highlightthickness=0, bg="#f8f9fa")
 		self.scroll_canvas.grid(row=0, column=0, sticky="nsew")
 
@@ -48,6 +56,7 @@ class TipCalculatorApp:
 		self.scroll_canvas.bind("<Configure>", self._resize_scrollable_frame)
 		self.root.bind_all("<MouseWheel>", self._on_mousewheel)
 
+		# Header section at the top of the app.
 		header = ttk.Frame(container, padding=18, bootstyle="light")
 		header.grid(row=0, column=0, sticky="ew")
 		header.columnconfigure(0, weight=1)
@@ -64,6 +73,7 @@ class TipCalculatorApp:
 			bootstyle="secondary",
 		).grid(row=1, column=0, sticky="w", pady=(4, 0))
 
+		# This box holds the inputs the user types or selects.
 		form_box = ttk.Labelframe(container, text="Bill Details", padding=16, bootstyle="info")
 		form_box.grid(row=1, column=0, sticky="ew", pady=(14, 10))
 		form_box.columnconfigure(1, weight=1)
@@ -109,6 +119,7 @@ class TipCalculatorApp:
 		)
 		self.diners_selector.grid(row=3, column=1, sticky="ew", pady=8)
 
+		# Buttons for clearing the form or closing the app.
 		button_row = ttk.Frame(container)
 		button_row.grid(row=2, column=0, sticky="ew", pady=(2, 10))
 		button_row.columnconfigure((0, 1), weight=1)
@@ -126,6 +137,7 @@ class TipCalculatorApp:
 			bootstyle="danger",
 		).grid(row=0, column=1, sticky="ew", padx=(6, 0))
 
+		# This area shows the calculated tip, total bill, and price per person.
 		results_box = ttk.Labelframe(container, text="Results", padding=16, bootstyle="success")
 		results_box.grid(row=3, column=0, sticky="ew")
 		results_box.columnconfigure(1, weight=1)
@@ -152,6 +164,8 @@ class TipCalculatorApp:
 			bootstyle="danger",
 		).grid(row=4, column=0, sticky="w", pady=(10, 0))
 
+		# Put the cursor in the bill box first and recalculate whenever
+		# the user changes any value.
 		self.bill_entry.focus_set()
 		for var in (self.bill_var, self.tip_var, self.custom_tip_var, self.diners_var):
 			var.trace_add("write", self.on_value_changed)
@@ -193,6 +207,7 @@ class TipCalculatorApp:
 
 	def calculate(self) -> None:
 		"""Compute the bill totals from the current form values."""
+		# Read the bill amount from the input box and remove extra spaces.
 		bill_text = self.bill_var.get().strip()
 		if bill_text == "":
 			self.reset_outputs("Enter values to calculate.")
@@ -232,6 +247,7 @@ class TipCalculatorApp:
 			self.reset_outputs("Number of guests must be at least 1.")
 			return
 
+		# Do the actual calculator math.
 		tip_amount = bill_amount * (tip_percentage / 100)
 		total_with_tip = bill_amount + tip_amount
 		per_person = total_with_tip / diners
@@ -252,6 +268,7 @@ class TipCalculatorApp:
 
 
 def main() -> None:
+	# This starts the window and keeps the program running until the user closes it.
 	root = ttk.Window(themename="flatly")
 	TipCalculatorApp(root)
 	root.mainloop()
