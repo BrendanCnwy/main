@@ -1,0 +1,3088 @@
+{
+  "layers": [
+    "Layer 2",
+    "Layer 1"
+  ],
+  "hidden_layers": [],
+  "active_layer": "Layer 1",
+  "items": [
+    {
+      "type": "line",
+      "coords": [
+        1354.0,
+        99.0,
+        1355.0,
+        100.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1354.0,
+        99.0,
+        1346.0,
+        100.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1346.0,
+        100.0,
+        1319.0,
+        110.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1319.0,
+        110.0,
+        1281.0,
+        126.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1281.0,
+        126.0,
+        1235.0,
+        146.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1235.0,
+        146.0,
+        1186.0,
+        169.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1186.0,
+        169.0,
+        1133.0,
+        198.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1133.0,
+        198.0,
+        1076.0,
+        226.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1076.0,
+        226.0,
+        1018.0,
+        259.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1018.0,
+        259.0,
+        960.0,
+        294.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        960.0,
+        294.0,
+        904.0,
+        331.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        904.0,
+        331.0,
+        852.0,
+        370.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        852.0,
+        370.0,
+        808.0,
+        403.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        808.0,
+        403.0,
+        773.0,
+        434.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        773.0,
+        434.0,
+        748.0,
+        458.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        748.0,
+        458.0,
+        730.0,
+        476.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        730.0,
+        476.0,
+        724.0,
+        485.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        724.0,
+        485.0,
+        722.0,
+        490.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        722.0,
+        490.0,
+        724.0,
+        491.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        724.0,
+        491.0,
+        732.0,
+        490.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        732.0,
+        490.0,
+        746.0,
+        484.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        746.0,
+        484.0,
+        778.0,
+        467.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        778.0,
+        467.0,
+        813.0,
+        447.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        813.0,
+        447.0,
+        857.0,
+        424.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        857.0,
+        424.0,
+        904.0,
+        399.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        904.0,
+        399.0,
+        955.0,
+        374.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        955.0,
+        374.0,
+        1001.0,
+        348.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1001.0,
+        348.0,
+        1042.0,
+        329.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1042.0,
+        329.0,
+        1071.0,
+        314.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1071.0,
+        314.0,
+        1088.0,
+        306.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1088.0,
+        306.0,
+        1093.0,
+        302.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1093.0,
+        302.0,
+        1093.0,
+        300.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1093.0,
+        300.0,
+        1092.0,
+        298.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1092.0,
+        298.0,
+        1082.0,
+        298.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1082.0,
+        298.0,
+        1062.0,
+        301.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1062.0,
+        301.0,
+        1028.0,
+        310.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1028.0,
+        310.0,
+        984.0,
+        326.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        984.0,
+        326.0,
+        933.0,
+        348.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        933.0,
+        348.0,
+        882.0,
+        375.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        882.0,
+        375.0,
+        831.0,
+        402.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        831.0,
+        402.0,
+        789.0,
+        426.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        789.0,
+        426.0,
+        757.0,
+        446.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        757.0,
+        446.0,
+        734.0,
+        462.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        734.0,
+        462.0,
+        725.0,
+        470.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        725.0,
+        470.0,
+        720.0,
+        473.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        720.0,
+        473.0,
+        719.0,
+        474.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        719.0,
+        474.0,
+        721.0,
+        473.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        721.0,
+        473.0,
+        733.0,
+        467.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        733.0,
+        467.0,
+        767.0,
+        450.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        767.0,
+        450.0,
+        813.0,
+        427.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        813.0,
+        427.0,
+        867.0,
+        394.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        867.0,
+        394.0,
+        929.0,
+        360.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        929.0,
+        360.0,
+        995.0,
+        325.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        995.0,
+        325.0,
+        1063.0,
+        290.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1063.0,
+        290.0,
+        1129.0,
+        257.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1129.0,
+        257.0,
+        1193.0,
+        226.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1193.0,
+        226.0,
+        1246.0,
+        201.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1246.0,
+        201.0,
+        1285.0,
+        182.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1285.0,
+        182.0,
+        1301.0,
+        172.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1301.0,
+        172.0,
+        1308.0,
+        169.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1308.0,
+        169.0,
+        1309.0,
+        167.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1309.0,
+        167.0,
+        1302.0,
+        167.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1302.0,
+        167.0,
+        1285.0,
+        172.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1285.0,
+        172.0,
+        1248.0,
+        183.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1248.0,
+        183.0,
+        1204.0,
+        199.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1204.0,
+        199.0,
+        1152.0,
+        218.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1152.0,
+        218.0,
+        1097.0,
+        238.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1097.0,
+        238.0,
+        1042.0,
+        261.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1042.0,
+        261.0,
+        989.0,
+        286.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        989.0,
+        286.0,
+        943.0,
+        306.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        943.0,
+        306.0,
+        909.0,
+        325.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        909.0,
+        325.0,
+        884.0,
+        338.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        884.0,
+        338.0,
+        869.0,
+        346.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        869.0,
+        346.0,
+        864.0,
+        350.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        864.0,
+        350.0,
+        862.0,
+        352.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        862.0,
+        352.0,
+        862.0,
+        353.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        862.0,
+        353.0,
+        864.0,
+        354.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        864.0,
+        354.0,
+        872.0,
+        353.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        872.0,
+        353.0,
+        893.0,
+        346.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        893.0,
+        346.0,
+        943.0,
+        334.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        943.0,
+        334.0,
+        1001.0,
+        316.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1001.0,
+        316.0,
+        1071.0,
+        295.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1071.0,
+        295.0,
+        1146.0,
+        272.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1146.0,
+        272.0,
+        1222.0,
+        248.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1222.0,
+        248.0,
+        1296.0,
+        226.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1296.0,
+        226.0,
+        1362.0,
+        211.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1362.0,
+        211.0,
+        1420.0,
+        195.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1420.0,
+        195.0,
+        1457.0,
+        186.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1457.0,
+        186.0,
+        1478.0,
+        182.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1478.0,
+        182.0,
+        1485.0,
+        180.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1485.0,
+        180.0,
+        1486.0,
+        180.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1486.0,
+        180.0,
+        1477.0,
+        182.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1477.0,
+        182.0,
+        1450.0,
+        190.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1450.0,
+        190.0,
+        1400.0,
+        206.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1400.0,
+        206.0,
+        1340.0,
+        222.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1340.0,
+        222.0,
+        1266.0,
+        246.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1266.0,
+        246.0,
+        1186.0,
+        274.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1186.0,
+        274.0,
+        1101.0,
+        306.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1101.0,
+        306.0,
+        1014.0,
+        343.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1014.0,
+        343.0,
+        929.0,
+        382.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        929.0,
+        382.0,
+        848.0,
+        421.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        848.0,
+        421.0,
+        773.0,
+        461.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        773.0,
+        461.0,
+        717.0,
+        496.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        717.0,
+        496.0,
+        674.0,
+        524.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        674.0,
+        524.0,
+        648.0,
+        543.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        648.0,
+        543.0,
+        641.0,
+        553.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        641.0,
+        553.0,
+        640.0,
+        558.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        640.0,
+        558.0,
+        645.0,
+        562.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        645.0,
+        562.0,
+        662.0,
+        562.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        662.0,
+        562.0,
+        705.0,
+        557.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        705.0,
+        557.0,
+        767.0,
+        542.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        767.0,
+        542.0,
+        840.0,
+        522.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        840.0,
+        522.0,
+        921.0,
+        502.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        921.0,
+        502.0,
+        1003.0,
+        480.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1003.0,
+        480.0,
+        1079.0,
+        457.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1079.0,
+        457.0,
+        1145.0,
+        432.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1145.0,
+        432.0,
+        1199.0,
+        408.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1199.0,
+        408.0,
+        1242.0,
+        385.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1242.0,
+        385.0,
+        1269.0,
+        364.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1269.0,
+        364.0,
+        1281.0,
+        346.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1281.0,
+        346.0,
+        1285.0,
+        335.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1285.0,
+        335.0,
+        1282.0,
+        326.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1282.0,
+        326.0,
+        1273.0,
+        320.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1273.0,
+        320.0,
+        1253.0,
+        314.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1253.0,
+        314.0,
+        1217.0,
+        309.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1217.0,
+        309.0,
+        1171.0,
+        309.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1171.0,
+        309.0,
+        1114.0,
+        315.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1114.0,
+        315.0,
+        1050.0,
+        327.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1050.0,
+        327.0,
+        983.0,
+        345.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        983.0,
+        345.0,
+        913.0,
+        370.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        913.0,
+        370.0,
+        848.0,
+        400.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        848.0,
+        400.0,
+        789.0,
+        430.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        789.0,
+        430.0,
+        739.0,
+        462.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        739.0,
+        462.0,
+        704.0,
+        491.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        704.0,
+        491.0,
+        680.0,
+        516.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        680.0,
+        516.0,
+        672.0,
+        530.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        672.0,
+        530.0,
+        672.0,
+        540.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        672.0,
+        540.0,
+        678.0,
+        548.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        678.0,
+        548.0,
+        697.0,
+        554.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        697.0,
+        554.0,
+        739.0,
+        557.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        739.0,
+        557.0,
+        796.0,
+        554.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        796.0,
+        554.0,
+        865.0,
+        547.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        865.0,
+        547.0,
+        945.0,
+        534.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        945.0,
+        534.0,
+        1028.0,
+        520.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1028.0,
+        520.0,
+        1113.0,
+        504.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1113.0,
+        504.0,
+        1195.0,
+        484.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1195.0,
+        484.0,
+        1265.0,
+        461.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1265.0,
+        461.0,
+        1330.0,
+        430.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1330.0,
+        430.0,
+        1381.0,
+        403.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1381.0,
+        403.0,
+        1421.0,
+        374.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1421.0,
+        374.0,
+        1450.0,
+        344.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1450.0,
+        344.0,
+        1469.0,
+        318.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1469.0,
+        318.0,
+        1474.0,
+        298.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1474.0,
+        298.0,
+        1472.0,
+        284.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1472.0,
+        284.0,
+        1460.0,
+        273.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1460.0,
+        273.0,
+        1437.0,
+        265.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1437.0,
+        265.0,
+        1405.0,
+        263.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1405.0,
+        263.0,
+        1356.0,
+        270.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1356.0,
+        270.0,
+        1298.0,
+        285.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1298.0,
+        285.0,
+        1230.0,
+        308.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1230.0,
+        308.0,
+        1161.0,
+        338.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1161.0,
+        338.0,
+        1090.0,
+        378.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1090.0,
+        378.0,
+        1025.0,
+        415.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1025.0,
+        415.0,
+        972.0,
+        452.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        972.0,
+        452.0,
+        934.0,
+        482.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        934.0,
+        482.0,
+        914.0,
+        499.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        914.0,
+        499.0,
+        909.0,
+        506.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        909.0,
+        506.0,
+        909.0,
+        508.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        909.0,
+        508.0,
+        915.0,
+        508.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        915.0,
+        508.0,
+        936.0,
+        502.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        936.0,
+        502.0,
+        986.0,
+        482.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        986.0,
+        482.0,
+        1056.0,
+        452.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1056.0,
+        452.0,
+        1143.0,
+        413.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1143.0,
+        413.0,
+        1237.0,
+        368.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1237.0,
+        368.0,
+        1331.0,
+        326.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1331.0,
+        326.0,
+        1426.0,
+        285.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1426.0,
+        285.0,
+        1509.0,
+        248.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1509.0,
+        248.0,
+        1589.0,
+        221.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1589.0,
+        221.0,
+        1652.0,
+        202.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1652.0,
+        202.0,
+        1700.0,
+        189.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    },
+    {
+      "type": "line",
+      "coords": [
+        1700.0,
+        189.0,
+        1740.0,
+        181.0
+      ],
+      "options": {
+        "fill": "green",
+        "width": "6.0",
+        "capstyle": "round",
+        "smooth": "true",
+        "splinesteps": "36"
+      },
+      "layer": "Layer 1"
+    }
+  ],
+  "background": "white"
+}
