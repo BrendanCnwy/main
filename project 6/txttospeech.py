@@ -360,18 +360,25 @@ class PDFReaderTTSApp:
             communicate = edge_tts.Communicate(text, voice, rate=rate)
             await communicate.save(TEMP_AUDIO)
 
+        loop = None
         try:
             # Create a new event loop for this thread (threads don't have one).
+            # Important: we avoid reusing a global loop here because playback
+            # can be restarted repeatedly and each worker thread is independent.
             loop = asyncio.new_event_loop()
             asyncio.set_event_loop(loop)
             loop.run_until_complete(_synth())
-            loop.close()
             return True
         except Exception as exc:
             # Schedule the error dialog on the main thread.
             self.root.after(0, lambda: self.status_label.configure(
                 text=f"TTS error: {exc}"))
             return False
+        finally:
+            # Always close the loop, even on synthesis failures, to prevent
+            # event-loop resource leaks across long app sessions.
+            if loop is not None:
+                loop.close()
 
     # ──────────────────────────────────────────────────────────────
     # Playback controls
@@ -523,6 +530,9 @@ class PDFReaderTTSApp:
 
         # Reset all playback state so Play works again without relaunching.
         self.is_playing = False
+        # Contract: Stop returns to page 1 by design. Navigation helpers that
+        # need to preserve position (skip/jump/rate-change restart) explicitly
+        # restore current_index right after calling _stop_engine().
         self.current_index = 0
         self.paused_offset = 0.0
         self.audio_duration = 0.0
@@ -550,6 +560,8 @@ class PDFReaderTTSApp:
 
             # Update status on the main thread.
             idx = self.current_index
+            # Use default arg capture (i=idx) so asynchronous callbacks do not
+            # read a later, mutated loop variable by the time Tk executes them.
             self.root.after(0, lambda i=idx: self.status_label.configure(
                 text=f"Generating speech for page {i + 1}/{len(self.text_chunks)}…"))
 
@@ -586,6 +598,8 @@ class PDFReaderTTSApp:
                     elapsed = time.time() - self.playback_start_time
                     fraction = min(elapsed / max(self.audio_duration, 0.1), 1.0)
                     remaining = max(self.audio_duration - elapsed, 0)
+                    # Tk widgets are not thread-safe: route every UI mutation
+                    # through root.after so updates run on the Tk main thread.
                     self.root.after(0, lambda f=fraction: self.progress_bar.set(f))
                     self.root.after(0, lambda e=elapsed, r=remaining:
                                     self._update_time_labels(e, r))

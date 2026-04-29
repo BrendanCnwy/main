@@ -2,8 +2,11 @@ import json
 import os
 import re
 
-# File where all contacts are persistently stored
-CONTACTS_FILE = "contacts.json"
+# File where all contacts are persistently stored.
+# Keep CLI and GUI on one shared JSON path.
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+CONTACTS_FILE = os.path.join(SCRIPT_DIR, "contacts.json")
+LEGACY_CONTACTS_FILE = os.path.join(SCRIPT_DIR, "Project 8", "contacts.json")
 
 # ============ VALIDATION FUNCTIONS ============
 
@@ -27,12 +30,21 @@ def validate_address(address):
 
 def load_contacts():
     """Load all contacts from JSON file. Returns empty list if file doesn't exist."""
-    return json.load(open(CONTACTS_FILE)) if os.path.exists(CONTACTS_FILE) else []
+    source_file = CONTACTS_FILE if os.path.exists(CONTACTS_FILE) else LEGACY_CONTACTS_FILE
+    if not os.path.exists(source_file):
+        return []
+
+    try:
+        with open(source_file, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return []
 
 def save_contacts(contacts):
     """Save all contacts to JSON file with error handling."""
     try:
-        with open(CONTACTS_FILE, "w") as f: json.dump(contacts, f, indent=2)
+        with open(CONTACTS_FILE, "w", encoding="utf-8") as f:
+            json.dump(contacts, f, indent=2)
         return True
     except Exception as e:
         print(f"Error saving contacts: {e}"); return False
